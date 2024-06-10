@@ -1,0 +1,280 @@
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    padding:30px;
+    position: absolute;
+    background-color: #F5F5F5;
+}
+
+.navigation{
+    border-radius: 30px;
+    background-color: #000000;
+    padding:10px;
+    width:20%;
+}
+
+.navigation1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dashboard-navigation{
+    display:flex;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    color:darkgrey;
+}
+
+.dashboard-navigation-highlighted{
+    display:flex;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    color:#ffffff;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.dashboard-heading{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+
+.board{
+    color:#ffffff;
+    text-align: start;
+    margin-left: 40px;
+    font-size: 35px;
+}
+
+.footer{
+    margin-top: 520px;
+}
+
+.footer-heading{
+    color:darkgray;
+    margin-left: 40px;
+    text-align: start;
+    font-size: 18px;
+}
+
+.right-side{
+    width:80%;
+}
+
+.dashboard-search-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.search-profile{
+    display: flex;
+    margin-left: 850px;
+}
+.search-cont{
+    width:120px;
+    background-color:#ffffff;
+    padding: 2px;
+    margin-right: 20px;
+    margin-top: 0px;
+    border-radius: 8px;
+}
+
+.search{
+    width:100px;
+    border: 0px solid;
+    padding: 5px;
+}
+
+.notification{
+    margin-top: 2px;
+}
+.profile{
+    width:30px;
+    height:30px;
+    margin-left: 20px;
+}
+
+.summary-container{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.summary{
+    display:flex;
+    flex-direction: column;
+    background-color: #DDEFE0;
+    padding: 15px;
+    margin: 10px;
+    width:250px;
+    border-radius: 22px;
+}
+
+.summary1{
+    background-color:  #F4ECDD;;
+}
+
+.summary2{
+    background-color: #EFDADA;
+}
+
+.summary3{
+    background-color: #DEE0EF;
+}
+
+.Activities{
+    font-size: 28px;
+    font-family: "Roboto";
+    
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.matter{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.total-revenue{
+    margin-top: 40px;
+    font-family: "Roboto";
+    color:#000000;
+    margin-bottom: 0px;
+}
+
+.total{
+    margin-top: 0px;
+    font-size: 30px;
+}
+.Bar-chart-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding:20px;
+    margin:10px;
+    margin-left: 25px;
+    background-color: #ffffff;
+    width:92%;
+}
+
+.pie-chart-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width:400px;
+    background-color: #ffffff;
+    margin:10px;
+    height:300px;
+    padding:10px;
+    border-radius: 15px;
+    width:600px;
+}
+
+.pi-chart{
+    padding:10px;
+}
+
+.top-products{
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.pichart-todaysschedule{
+    display:flex;
+    margin:10px;
+    max-width: 100%;
+}
+
+.seall-cont{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color:darkgrey;
+}
+
+.seall{
+    margin-top:0px;
+    margin-right: 0px;
+}
+
+
+.details{
+    display:flex;
+}
+
+.schedule-container{
+    display: flex;
+    width:250px;
+    margin:10px;
+    
+}
+
+.line1{
+    background-color: lightgreen;
+    width:1%;
+    border:0px;
+}
+
+.line2{
+    background-color: blue;
+    width:1%;
+    border:0px;
+    margin-left: 15px;
+}
+
+.meeting{
+    font-size: 12px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+}
+.todays-schedule-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width:400px;
+    padding:15px;
+    border-radius: 15px;
+    height:290px;
+    margin-top:10px;
+    width:500px;
+    margin-bottom:5px;
+}
+
+.schedule{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 0px;
+}
+
+.schedule1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 0px;
+    margin-right: 22px;
+}
+
+.timings{
+    color:darkgrey;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
